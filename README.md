@@ -13,10 +13,10 @@ My approach however involved:
 
 3.  This test case format made it easier for me to process each test case.  For the simple case of static letters, I'd take the first letter in the request, I'd grab the correct trie, and for each letter, I'd find the next matching node in the trie if it existed.  If it didn't, I knew I was done and no match existed.  If I made it to the end of the word, I knew I had a match.
 
-4.  For the more complex case of multiple letters in the same position, I'd use depth first search and run each particular letter to the end, randomly picking a single a letter each time I had a queue (Ruby Array).  After I hit the end of a particular pattern, the function would test to see if there was a match, and return that value.  The stack frames would then unwind, where I'd recursively check every value in the queue.  As I finished processing each queue, I'd restore the contents of that queue so that as I kept unwinding to earlier in the test case, I'd have the entire conents of that later queue to test against.
+4.  For the more complex case of multiple letters in the same position, I'd use depth first search and run each particular letter to the end, randomly picking a single a letter each time I had a queue (Ruby Array).  After I hit the end of a particular pattern, the function would test to see if there was a match, and return that value (1 for a match, 0 for not).  The stack frames would then unwind, where I'd recursively check every letter in the queue.  As I finished processing each queue, I'd restore the contents of that queue so that as I kept unwinding to earlier in the test case string, I'd have the entire conents of that later queue to test against.
 
 ### Notes
-Implementation wise, every time I say I use the letter as a key in some hash, I actually use a Ruby symbol as those yield faster runtime, especially in lower versions of Ruby where the speed enhancements are more pronounced.  This has to do with the fact that all Ruby symbols have precomputed hashes as opposed to strings, which need to be done everytime.  Also in earlier versions of Ruby, symbols are also not garbage collected, which is perfect for me, as I don't really care about memory leaks here and actually prefer them not being GC'ed.
+Implementation wise, every time I say I use the letter as a key in some hash, I actually use a Ruby symbol as those yield faster runtime, especially in lower versions of Ruby where the speed enhancements are more pronounced.  This has to do with the fact that all Ruby symbols have precomputed hashes as opposed to strings, which need to be done everytime.  Also in earlier versions of Ruby, symbols are also not garbage collected, which is perfect for me, as I don't really care about memory leaks here and actually prefer them not even being examined for GC.
 
 
 ## Interesting Hiccups
@@ -24,7 +24,7 @@ This took me a lot longer than I wanted to solve it.  A few interesting things I
 
 I wanted to initially use this [trie](https://github.com/tyler/trie) but it took me way too long to try and figure out how to make their API work they way I wanted, so I finally just ended up implementing my own trie (tree.rb and node.rb) that exposed the operations I wanted.
 
-My tries themselves are very simple.  They consists of nodes, where each node contains the letter as well as a hash of subsequent letters to subsequent node.  Because I use hashes, each insertion is a constant time operation performed every time for each unique letter in a unique sequence.  Retrieval is also a constant time operation that I need to perform at most, n times for a given unique search pattern.  Often, the comparisons are less than that because as I walk a given pattern, if I find a letter does not exist in any of my tries, I can terminate checking that pattern and any permutations that arise from that base pattern.
+My tries themselves are very simple.  They consists of nodes, where each node contains the letter as well as a hash of subsequent letters to subsequent node.  
 
 
 ## Analysis
@@ -34,7 +34,7 @@ The first cost is associated with building my tries.  For every word in the dict
 
 Building up the tests cases works the same as well.  The work done for each letter are constant time operations that are all done n times, where n is the test case size (number of letters in the test case).
 
-To test each test case, which means checking all of the combinations for a given input pattern, I perform a recursive depth first search that results in a search that is at worst linear with respect to the number of edges that result from all the possible combinations for that pattern.  Of course, as I said earlier, often I'm able to quit early when I find an invalid combination, allowing me to skip large number of combinations that derive from that base.
+To test each test case, which means checking all of the combinations for a given input pattern, I perform a recursive depth first search that results in a search that is at worst linear with respect to the number of edges that result from all the possible combinations for that pattern.  Often I'm able to quit early when I find an invalid combination, allowing me to skip large number of combinations that derive from that base.
 
 
 ## Final Thoughts
