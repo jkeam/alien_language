@@ -4,18 +4,17 @@ class Node
   def initialize(value, parent)
     @value = value
     @parent = parent
-    @children = []
+    @children = {}
   end
 
   def to_s
     s = "{value: #{@value}, children: \n" 
-    s += children.map(&:to_s).join(', ')
+    s += children.inspect
     s += "}"
     s
   end
 
   # find node if it exists
-  #TODO: god so ugly
   def add_value(value)
     node = get_child value
 
@@ -23,17 +22,12 @@ class Node
     # add to correct place to cur node
     if node.nil?
       node = Node.new(value, self)
-      @children.push node
-      @children.sort!  { |a,b| a.value <=> b.value }
+      @children[value] = node
     end
     node
   end
 
-  #TODO: do this smarter, bin search
   def get_child(value) 
-    match = @children.find do |i|
-      i.value == value
-    end
-    match
+    @children[value]
   end
 end
