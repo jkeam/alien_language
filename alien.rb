@@ -67,5 +67,6 @@ class Alien
 end
 
 input = Parser.parse 'input/A-large-practice.txt'
+# input = Parser.parse 'input/A-small-practice.txt'
 alien = Alien.new input[:forest]
 alien.count_matches(input[:test_cases]).each_with_index { |a, i| puts "Case ##{i+1}: #{a}" }
