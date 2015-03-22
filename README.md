@@ -1,9 +1,9 @@
 #Alien Language
-This is my solution for (Alien Language)[https://code.google.com/codejam/contest/90101/dashboard#s=p0]
+This is my solution for [Alien Language](https://code.google.com/codejam/contest/90101/dashboard#s=p0)
 
 This took me a lot longer than I wanted to solve it.  A few interesting things I ran into:
 
-I wanted to initially use this (trie)[https://github.com/tyler/trie] but it took me way too long to try and figure out how to make their API work they way I wanted, so I finally just ended up implementing my own trie (tree.rb and node.rb) that exposed the operations I wanted.
+I wanted to initially use this [trie](https://github.com/tyler/trie) but it took me way too long to try and figure out how to make their API work they way I wanted, so I finally just ended up implementing my own trie (tree.rb and node.rb) that exposed the operations I wanted.
 
 My tries themselves are very simple.  They consists of nodes, where each node contains the letter as well as a hash of subsequent letters to subsequent node.  Because I use hashes, each insertion is a constant time operation performed every time for each unique letter in a unique sequence.  Retrieval is also a constant time operation that I need to perform at most, n times for a given unique search pattern.  Often, the comparisons are less than that because as I walk a given pattern, if I find a letter does not exist in any of my tries, I can terminate checking that pattern and any permutations that arise from that base pattern.
 
