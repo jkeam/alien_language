@@ -22,12 +22,12 @@ class Node
     # add to correct place to cur node
     if node.nil?
       node = Node.new(value, self)
-      @children[value] = node
+      @children[value.to_sym] = node
     end
     node
   end
 
   def get_child(value) 
-    @children[value]
+    @children[value.to_sym]
   end
 end
