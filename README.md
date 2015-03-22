@@ -45,4 +45,4 @@ bundle install
 ./run.sh
 ```
 
-I ran it against Google's validator and it was correct with respect to the complex test case.  Feel free to drop me any comments!
+I ran it against Google's validator and it was correct with respect to both the simple and complex test cases.  Feel free to drop me any comments!
