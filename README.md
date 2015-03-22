@@ -1,5 +1,5 @@
 # Alien Language
-This is my solution for [Alien Language](https://code.google.com/codejam/contest/90101/dashboard#s=p0)
+This is my solution for [Alien Language](https://code.google.com/codejam/contest/90101/dashboard#s=p0).
 
 I think the ideal solution in terms of implementation time and most likely runtime is to simply turn the request patterns into regex and search against the given words in the language.
 
