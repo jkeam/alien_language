@@ -1,7 +1,7 @@
 require './forest'
 
 class Parser
-  def self.parse(filename='input.txt')
+  def self.parse(filename='input/input.txt')
     word_length = 0
     dictionary_length = 0
     test_case_length = 0

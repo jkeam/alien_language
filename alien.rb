@@ -9,7 +9,7 @@ class Alien
   def initialize(forest)
     log = Logger.new 'alien_logger'
     log.outputters = Outputter.stdout
-    log.level = Log4r::DEBUG
+    log.level = Log4r::INFO
     @log = log
 
     @forest = forest
@@ -67,7 +67,7 @@ class Alien
   end
 end
 
-input = Parser.parse 'A-large-practice.txt'
+input = Parser.parse 'input/A-large-practice.txt'
 # input = Parser.parse 
 alien = Alien.new input[:forest]
 alien.count_matches(input[:test_cases]).each_with_index { |a, i| puts "Case ##{i+1}: #{a}" }
