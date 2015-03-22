@@ -1,50 +1,1001 @@
  INFO alien_logger: total test cases: 500
  INFO alien_logger: processing test case: 0
-DEBUG alien_logger: Timing count_matches: 1.2e-05
  INFO alien_logger: processing test case: 1
-DEBUG alien_logger: Timing count_matches: 2.7e-05
  INFO alien_logger: processing test case: 2
-DEBUG alien_logger: Timing count_matches: 5.0e-05
  INFO alien_logger: processing test case: 3
-DEBUG alien_logger: Timing count_matches: 0.000125
  INFO alien_logger: processing test case: 4
-DEBUG alien_logger: Timing count_matches: 0.192729
  INFO alien_logger: processing test case: 5
-DEBUG alien_logger: Timing count_matches: 0.164826
  INFO alien_logger: processing test case: 6
-DEBUG alien_logger: Timing count_matches: 0.000111
  INFO alien_logger: processing test case: 7
-DEBUG alien_logger: Timing count_matches: 0.152717
  INFO alien_logger: processing test case: 8
-DEBUG alien_logger: Timing count_matches: 0.000148
  INFO alien_logger: processing test case: 9
-DEBUG alien_logger: Timing count_matches: 0.14168
  INFO alien_logger: processing test case: 10
-DEBUG alien_logger: Timing count_matches: 7.0e-06
  INFO alien_logger: processing test case: 11
-DEBUG alien_logger: Timing count_matches: 0.000105
  INFO alien_logger: processing test case: 12
-DEBUG alien_logger: Timing count_matches: 5.2e-05
  INFO alien_logger: processing test case: 13
-DEBUG alien_logger: Timing count_matches: 0.00016
  INFO alien_logger: processing test case: 14
-DEBUG alien_logger: Timing count_matches: 0.144308
  INFO alien_logger: processing test case: 15
-DEBUG alien_logger: Timing count_matches: 0.133166
  INFO alien_logger: processing test case: 16
-DEBUG alien_logger: Timing count_matches: 0.000122
  INFO alien_logger: processing test case: 17
-DEBUG alien_logger: Timing count_matches: 0.145308
  INFO alien_logger: processing test case: 18
-DEBUG alien_logger: Timing count_matches: 0.000123
  INFO alien_logger: processing test case: 19
-DEBUG alien_logger: Timing count_matches: 0.155938
  INFO alien_logger: processing test case: 20
-DEBUG alien_logger: Timing count_matches: 9.0e-06
  INFO alien_logger: processing test case: 21
-DEBUG alien_logger: Timing count_matches: 2.6e-05
  INFO alien_logger: processing test case: 22
-DEBUG alien_logger: Timing count_matches: 0.000106
  INFO alien_logger: processing test case: 23
-DEBUG alien_logger: Timing count_matches: 0.000353
  INFO alien_logger: processing test case: 24
+ INFO alien_logger: processing test case: 25
+ INFO alien_logger: processing test case: 26
+ INFO alien_logger: processing test case: 27
+ INFO alien_logger: processing test case: 28
+ INFO alien_logger: processing test case: 29
+ INFO alien_logger: processing test case: 30
+ INFO alien_logger: processing test case: 31
+ INFO alien_logger: processing test case: 32
+ INFO alien_logger: processing test case: 33
+ INFO alien_logger: processing test case: 34
+ INFO alien_logger: processing test case: 35
+ INFO alien_logger: processing test case: 36
+ INFO alien_logger: processing test case: 37
+ INFO alien_logger: processing test case: 38
+ INFO alien_logger: processing test case: 39
+ INFO alien_logger: processing test case: 40
+ INFO alien_logger: processing test case: 41
+ INFO alien_logger: processing test case: 42
+ INFO alien_logger: processing test case: 43
+ INFO alien_logger: processing test case: 44
+ INFO alien_logger: processing test case: 45
+ INFO alien_logger: processing test case: 46
+ INFO alien_logger: processing test case: 47
+ INFO alien_logger: processing test case: 48
+ INFO alien_logger: processing test case: 49
+ INFO alien_logger: processing test case: 50
+ INFO alien_logger: processing test case: 51
+ INFO alien_logger: processing test case: 52
+ INFO alien_logger: processing test case: 53
+ INFO alien_logger: processing test case: 54
+ INFO alien_logger: processing test case: 55
+ INFO alien_logger: processing test case: 56
+ INFO alien_logger: processing test case: 57
+ INFO alien_logger: processing test case: 58
+ INFO alien_logger: processing test case: 59
+ INFO alien_logger: processing test case: 60
+ INFO alien_logger: processing test case: 61
+ INFO alien_logger: processing test case: 62
+ INFO alien_logger: processing test case: 63
+ INFO alien_logger: processing test case: 64
+ INFO alien_logger: processing test case: 65
+ INFO alien_logger: processing test case: 66
+ INFO alien_logger: processing test case: 67
+ INFO alien_logger: processing test case: 68
+ INFO alien_logger: processing test case: 69
+ INFO alien_logger: processing test case: 70
+ INFO alien_logger: processing test case: 71
+ INFO alien_logger: processing test case: 72
+ INFO alien_logger: processing test case: 73
+ INFO alien_logger: processing test case: 74
+ INFO alien_logger: processing test case: 75
+ INFO alien_logger: processing test case: 76
+ INFO alien_logger: processing test case: 77
+ INFO alien_logger: processing test case: 78
+ INFO alien_logger: processing test case: 79
+ INFO alien_logger: processing test case: 80
+ INFO alien_logger: processing test case: 81
+ INFO alien_logger: processing test case: 82
+ INFO alien_logger: processing test case: 83
+ INFO alien_logger: processing test case: 84
+ INFO alien_logger: processing test case: 85
+ INFO alien_logger: processing test case: 86
+ INFO alien_logger: processing test case: 87
+ INFO alien_logger: processing test case: 88
+ INFO alien_logger: processing test case: 89
+ INFO alien_logger: processing test case: 90
+ INFO alien_logger: processing test case: 91
+ INFO alien_logger: processing test case: 92
+ INFO alien_logger: processing test case: 93
+ INFO alien_logger: processing test case: 94
+ INFO alien_logger: processing test case: 95
+ INFO alien_logger: processing test case: 96
+ INFO alien_logger: processing test case: 97
+ INFO alien_logger: processing test case: 98
+ INFO alien_logger: processing test case: 99
+ INFO alien_logger: processing test case: 100
+ INFO alien_logger: processing test case: 101
+ INFO alien_logger: processing test case: 102
+ INFO alien_logger: processing test case: 103
+ INFO alien_logger: processing test case: 104
+ INFO alien_logger: processing test case: 105
+ INFO alien_logger: processing test case: 106
+ INFO alien_logger: processing test case: 107
+ INFO alien_logger: processing test case: 108
+ INFO alien_logger: processing test case: 109
+ INFO alien_logger: processing test case: 110
+ INFO alien_logger: processing test case: 111
+ INFO alien_logger: processing test case: 112
+ INFO alien_logger: processing test case: 113
+ INFO alien_logger: processing test case: 114
+ INFO alien_logger: processing test case: 115
+ INFO alien_logger: processing test case: 116
+ INFO alien_logger: processing test case: 117
+ INFO alien_logger: processing test case: 118
+ INFO alien_logger: processing test case: 119
+ INFO alien_logger: processing test case: 120
+ INFO alien_logger: processing test case: 121
+ INFO alien_logger: processing test case: 122
+ INFO alien_logger: processing test case: 123
+ INFO alien_logger: processing test case: 124
+ INFO alien_logger: processing test case: 125
+ INFO alien_logger: processing test case: 126
+ INFO alien_logger: processing test case: 127
+ INFO alien_logger: processing test case: 128
+ INFO alien_logger: processing test case: 129
+ INFO alien_logger: processing test case: 130
+ INFO alien_logger: processing test case: 131
+ INFO alien_logger: processing test case: 132
+ INFO alien_logger: processing test case: 133
+ INFO alien_logger: processing test case: 134
+ INFO alien_logger: processing test case: 135
+ INFO alien_logger: processing test case: 136
+ INFO alien_logger: processing test case: 137
+ INFO alien_logger: processing test case: 138
+ INFO alien_logger: processing test case: 139
+ INFO alien_logger: processing test case: 140
+ INFO alien_logger: processing test case: 141
+ INFO alien_logger: processing test case: 142
+ INFO alien_logger: processing test case: 143
+ INFO alien_logger: processing test case: 144
+ INFO alien_logger: processing test case: 145
+ INFO alien_logger: processing test case: 146
+ INFO alien_logger: processing test case: 147
+ INFO alien_logger: processing test case: 148
+ INFO alien_logger: processing test case: 149
+ INFO alien_logger: processing test case: 150
+ INFO alien_logger: processing test case: 151
+ INFO alien_logger: processing test case: 152
+ INFO alien_logger: processing test case: 153
+ INFO alien_logger: processing test case: 154
+ INFO alien_logger: processing test case: 155
+ INFO alien_logger: processing test case: 156
+ INFO alien_logger: processing test case: 157
+ INFO alien_logger: processing test case: 158
+ INFO alien_logger: processing test case: 159
+ INFO alien_logger: processing test case: 160
+ INFO alien_logger: processing test case: 161
+ INFO alien_logger: processing test case: 162
+ INFO alien_logger: processing test case: 163
+ INFO alien_logger: processing test case: 164
+ INFO alien_logger: processing test case: 165
+ INFO alien_logger: processing test case: 166
+ INFO alien_logger: processing test case: 167
+ INFO alien_logger: processing test case: 168
+ INFO alien_logger: processing test case: 169
+ INFO alien_logger: processing test case: 170
+ INFO alien_logger: processing test case: 171
+ INFO alien_logger: processing test case: 172
+ INFO alien_logger: processing test case: 173
+ INFO alien_logger: processing test case: 174
+ INFO alien_logger: processing test case: 175
+ INFO alien_logger: processing test case: 176
+ INFO alien_logger: processing test case: 177
+ INFO alien_logger: processing test case: 178
+ INFO alien_logger: processing test case: 179
+ INFO alien_logger: processing test case: 180
+ INFO alien_logger: processing test case: 181
+ INFO alien_logger: processing test case: 182
+ INFO alien_logger: processing test case: 183
+ INFO alien_logger: processing test case: 184
+ INFO alien_logger: processing test case: 185
+ INFO alien_logger: processing test case: 186
+ INFO alien_logger: processing test case: 187
+ INFO alien_logger: processing test case: 188
+ INFO alien_logger: processing test case: 189
+ INFO alien_logger: processing test case: 190
+ INFO alien_logger: processing test case: 191
+ INFO alien_logger: processing test case: 192
+ INFO alien_logger: processing test case: 193
+ INFO alien_logger: processing test case: 194
+ INFO alien_logger: processing test case: 195
+ INFO alien_logger: processing test case: 196
+ INFO alien_logger: processing test case: 197
+ INFO alien_logger: processing test case: 198
+ INFO alien_logger: processing test case: 199
+ INFO alien_logger: processing test case: 200
+ INFO alien_logger: processing test case: 201
+ INFO alien_logger: processing test case: 202
+ INFO alien_logger: processing test case: 203
+ INFO alien_logger: processing test case: 204
+ INFO alien_logger: processing test case: 205
+ INFO alien_logger: processing test case: 206
+ INFO alien_logger: processing test case: 207
+ INFO alien_logger: processing test case: 208
+ INFO alien_logger: processing test case: 209
+ INFO alien_logger: processing test case: 210
+ INFO alien_logger: processing test case: 211
+ INFO alien_logger: processing test case: 212
+ INFO alien_logger: processing test case: 213
+ INFO alien_logger: processing test case: 214
+ INFO alien_logger: processing test case: 215
+ INFO alien_logger: processing test case: 216
+ INFO alien_logger: processing test case: 217
+ INFO alien_logger: processing test case: 218
+ INFO alien_logger: processing test case: 219
+ INFO alien_logger: processing test case: 220
+ INFO alien_logger: processing test case: 221
+ INFO alien_logger: processing test case: 222
+ INFO alien_logger: processing test case: 223
+ INFO alien_logger: processing test case: 224
+ INFO alien_logger: processing test case: 225
+ INFO alien_logger: processing test case: 226
+ INFO alien_logger: processing test case: 227
+ INFO alien_logger: processing test case: 228
+ INFO alien_logger: processing test case: 229
+ INFO alien_logger: processing test case: 230
+ INFO alien_logger: processing test case: 231
+ INFO alien_logger: processing test case: 232
+ INFO alien_logger: processing test case: 233
+ INFO alien_logger: processing test case: 234
+ INFO alien_logger: processing test case: 235
+ INFO alien_logger: processing test case: 236
+ INFO alien_logger: processing test case: 237
+ INFO alien_logger: processing test case: 238
+ INFO alien_logger: processing test case: 239
+ INFO alien_logger: processing test case: 240
+ INFO alien_logger: processing test case: 241
+ INFO alien_logger: processing test case: 242
+ INFO alien_logger: processing test case: 243
+ INFO alien_logger: processing test case: 244
+ INFO alien_logger: processing test case: 245
+ INFO alien_logger: processing test case: 246
+ INFO alien_logger: processing test case: 247
+ INFO alien_logger: processing test case: 248
+ INFO alien_logger: processing test case: 249
+ INFO alien_logger: processing test case: 250
+ INFO alien_logger: processing test case: 251
+ INFO alien_logger: processing test case: 252
+ INFO alien_logger: processing test case: 253
+ INFO alien_logger: processing test case: 254
+ INFO alien_logger: processing test case: 255
+ INFO alien_logger: processing test case: 256
+ INFO alien_logger: processing test case: 257
+ INFO alien_logger: processing test case: 258
+ INFO alien_logger: processing test case: 259
+ INFO alien_logger: processing test case: 260
+ INFO alien_logger: processing test case: 261
+ INFO alien_logger: processing test case: 262
+ INFO alien_logger: processing test case: 263
+ INFO alien_logger: processing test case: 264
+ INFO alien_logger: processing test case: 265
+ INFO alien_logger: processing test case: 266
+ INFO alien_logger: processing test case: 267
+ INFO alien_logger: processing test case: 268
+ INFO alien_logger: processing test case: 269
+ INFO alien_logger: processing test case: 270
+ INFO alien_logger: processing test case: 271
+ INFO alien_logger: processing test case: 272
+ INFO alien_logger: processing test case: 273
+ INFO alien_logger: processing test case: 274
+ INFO alien_logger: processing test case: 275
+ INFO alien_logger: processing test case: 276
+ INFO alien_logger: processing test case: 277
+ INFO alien_logger: processing test case: 278
+ INFO alien_logger: processing test case: 279
+ INFO alien_logger: processing test case: 280
+ INFO alien_logger: processing test case: 281
+ INFO alien_logger: processing test case: 282
+ INFO alien_logger: processing test case: 283
+ INFO alien_logger: processing test case: 284
+ INFO alien_logger: processing test case: 285
+ INFO alien_logger: processing test case: 286
+ INFO alien_logger: processing test case: 287
+ INFO alien_logger: processing test case: 288
+ INFO alien_logger: processing test case: 289
+ INFO alien_logger: processing test case: 290
+ INFO alien_logger: processing test case: 291
+ INFO alien_logger: processing test case: 292
+ INFO alien_logger: processing test case: 293
+ INFO alien_logger: processing test case: 294
+ INFO alien_logger: processing test case: 295
+ INFO alien_logger: processing test case: 296
+ INFO alien_logger: processing test case: 297
+ INFO alien_logger: processing test case: 298
+ INFO alien_logger: processing test case: 299
+ INFO alien_logger: processing test case: 300
+ INFO alien_logger: processing test case: 301
+ INFO alien_logger: processing test case: 302
+ INFO alien_logger: processing test case: 303
+ INFO alien_logger: processing test case: 304
+ INFO alien_logger: processing test case: 305
+ INFO alien_logger: processing test case: 306
+ INFO alien_logger: processing test case: 307
+ INFO alien_logger: processing test case: 308
+ INFO alien_logger: processing test case: 309
+ INFO alien_logger: processing test case: 310
+ INFO alien_logger: processing test case: 311
+ INFO alien_logger: processing test case: 312
+ INFO alien_logger: processing test case: 313
+ INFO alien_logger: processing test case: 314
+ INFO alien_logger: processing test case: 315
+ INFO alien_logger: processing test case: 316
+ INFO alien_logger: processing test case: 317
+ INFO alien_logger: processing test case: 318
+ INFO alien_logger: processing test case: 319
+ INFO alien_logger: processing test case: 320
+ INFO alien_logger: processing test case: 321
+ INFO alien_logger: processing test case: 322
+ INFO alien_logger: processing test case: 323
+ INFO alien_logger: processing test case: 324
+ INFO alien_logger: processing test case: 325
+ INFO alien_logger: processing test case: 326
+ INFO alien_logger: processing test case: 327
+ INFO alien_logger: processing test case: 328
+ INFO alien_logger: processing test case: 329
+ INFO alien_logger: processing test case: 330
+ INFO alien_logger: processing test case: 331
+ INFO alien_logger: processing test case: 332
+ INFO alien_logger: processing test case: 333
+ INFO alien_logger: processing test case: 334
+ INFO alien_logger: processing test case: 335
+ INFO alien_logger: processing test case: 336
+ INFO alien_logger: processing test case: 337
+ INFO alien_logger: processing test case: 338
+ INFO alien_logger: processing test case: 339
+ INFO alien_logger: processing test case: 340
+ INFO alien_logger: processing test case: 341
+ INFO alien_logger: processing test case: 342
+ INFO alien_logger: processing test case: 343
+ INFO alien_logger: processing test case: 344
+ INFO alien_logger: processing test case: 345
+ INFO alien_logger: processing test case: 346
+ INFO alien_logger: processing test case: 347
+ INFO alien_logger: processing test case: 348
+ INFO alien_logger: processing test case: 349
+ INFO alien_logger: processing test case: 350
+ INFO alien_logger: processing test case: 351
+ INFO alien_logger: processing test case: 352
+ INFO alien_logger: processing test case: 353
+ INFO alien_logger: processing test case: 354
+ INFO alien_logger: processing test case: 355
+ INFO alien_logger: processing test case: 356
+ INFO alien_logger: processing test case: 357
+ INFO alien_logger: processing test case: 358
+ INFO alien_logger: processing test case: 359
+ INFO alien_logger: processing test case: 360
+ INFO alien_logger: processing test case: 361
+ INFO alien_logger: processing test case: 362
+ INFO alien_logger: processing test case: 363
+ INFO alien_logger: processing test case: 364
+ INFO alien_logger: processing test case: 365
+ INFO alien_logger: processing test case: 366
+ INFO alien_logger: processing test case: 367
+ INFO alien_logger: processing test case: 368
+ INFO alien_logger: processing test case: 369
+ INFO alien_logger: processing test case: 370
+ INFO alien_logger: processing test case: 371
+ INFO alien_logger: processing test case: 372
+ INFO alien_logger: processing test case: 373
+ INFO alien_logger: processing test case: 374
+ INFO alien_logger: processing test case: 375
+ INFO alien_logger: processing test case: 376
+ INFO alien_logger: processing test case: 377
+ INFO alien_logger: processing test case: 378
+ INFO alien_logger: processing test case: 379
+ INFO alien_logger: processing test case: 380
+ INFO alien_logger: processing test case: 381
+ INFO alien_logger: processing test case: 382
+ INFO alien_logger: processing test case: 383
+ INFO alien_logger: processing test case: 384
+ INFO alien_logger: processing test case: 385
+ INFO alien_logger: processing test case: 386
+ INFO alien_logger: processing test case: 387
+ INFO alien_logger: processing test case: 388
+ INFO alien_logger: processing test case: 389
+ INFO alien_logger: processing test case: 390
+ INFO alien_logger: processing test case: 391
+ INFO alien_logger: processing test case: 392
+ INFO alien_logger: processing test case: 393
+ INFO alien_logger: processing test case: 394
+ INFO alien_logger: processing test case: 395
+ INFO alien_logger: processing test case: 396
+ INFO alien_logger: processing test case: 397
+ INFO alien_logger: processing test case: 398
+ INFO alien_logger: processing test case: 399
+ INFO alien_logger: processing test case: 400
+ INFO alien_logger: processing test case: 401
+ INFO alien_logger: processing test case: 402
+ INFO alien_logger: processing test case: 403
+ INFO alien_logger: processing test case: 404
+ INFO alien_logger: processing test case: 405
+ INFO alien_logger: processing test case: 406
+ INFO alien_logger: processing test case: 407
+ INFO alien_logger: processing test case: 408
+ INFO alien_logger: processing test case: 409
+ INFO alien_logger: processing test case: 410
+ INFO alien_logger: processing test case: 411
+ INFO alien_logger: processing test case: 412
+ INFO alien_logger: processing test case: 413
+ INFO alien_logger: processing test case: 414
+ INFO alien_logger: processing test case: 415
+ INFO alien_logger: processing test case: 416
+ INFO alien_logger: processing test case: 417
+ INFO alien_logger: processing test case: 418
+ INFO alien_logger: processing test case: 419
+ INFO alien_logger: processing test case: 420
+ INFO alien_logger: processing test case: 421
+ INFO alien_logger: processing test case: 422
+ INFO alien_logger: processing test case: 423
+ INFO alien_logger: processing test case: 424
+ INFO alien_logger: processing test case: 425
+ INFO alien_logger: processing test case: 426
+ INFO alien_logger: processing test case: 427
+ INFO alien_logger: processing test case: 428
+ INFO alien_logger: processing test case: 429
+ INFO alien_logger: processing test case: 430
+ INFO alien_logger: processing test case: 431
+ INFO alien_logger: processing test case: 432
+ INFO alien_logger: processing test case: 433
+ INFO alien_logger: processing test case: 434
+ INFO alien_logger: processing test case: 435
+ INFO alien_logger: processing test case: 436
+ INFO alien_logger: processing test case: 437
+ INFO alien_logger: processing test case: 438
+ INFO alien_logger: processing test case: 439
+ INFO alien_logger: processing test case: 440
+ INFO alien_logger: processing test case: 441
+ INFO alien_logger: processing test case: 442
+ INFO alien_logger: processing test case: 443
+ INFO alien_logger: processing test case: 444
+ INFO alien_logger: processing test case: 445
+ INFO alien_logger: processing test case: 446
+ INFO alien_logger: processing test case: 447
+ INFO alien_logger: processing test case: 448
+ INFO alien_logger: processing test case: 449
+ INFO alien_logger: processing test case: 450
+ INFO alien_logger: processing test case: 451
+ INFO alien_logger: processing test case: 452
+ INFO alien_logger: processing test case: 453
+ INFO alien_logger: processing test case: 454
+ INFO alien_logger: processing test case: 455
+ INFO alien_logger: processing test case: 456
+ INFO alien_logger: processing test case: 457
+ INFO alien_logger: processing test case: 458
+ INFO alien_logger: processing test case: 459
+ INFO alien_logger: processing test case: 460
+ INFO alien_logger: processing test case: 461
+ INFO alien_logger: processing test case: 462
+ INFO alien_logger: processing test case: 463
+ INFO alien_logger: processing test case: 464
+ INFO alien_logger: processing test case: 465
+ INFO alien_logger: processing test case: 466
+ INFO alien_logger: processing test case: 467
+ INFO alien_logger: processing test case: 468
+ INFO alien_logger: processing test case: 469
+ INFO alien_logger: processing test case: 470
+ INFO alien_logger: processing test case: 471
+ INFO alien_logger: processing test case: 472
+ INFO alien_logger: processing test case: 473
+ INFO alien_logger: processing test case: 474
+ INFO alien_logger: processing test case: 475
+ INFO alien_logger: processing test case: 476
+ INFO alien_logger: processing test case: 477
+ INFO alien_logger: processing test case: 478
+ INFO alien_logger: processing test case: 479
+ INFO alien_logger: processing test case: 480
+ INFO alien_logger: processing test case: 481
+ INFO alien_logger: processing test case: 482
+ INFO alien_logger: processing test case: 483
+ INFO alien_logger: processing test case: 484
+ INFO alien_logger: processing test case: 485
+ INFO alien_logger: processing test case: 486
+ INFO alien_logger: processing test case: 487
+ INFO alien_logger: processing test case: 488
+ INFO alien_logger: processing test case: 489
+ INFO alien_logger: processing test case: 490
+ INFO alien_logger: processing test case: 491
+ INFO alien_logger: processing test case: 492
+ INFO alien_logger: processing test case: 493
+ INFO alien_logger: processing test case: 494
+ INFO alien_logger: processing test case: 495
+ INFO alien_logger: processing test case: 496
+ INFO alien_logger: processing test case: 497
+ INFO alien_logger: processing test case: 498
+ INFO alien_logger: processing test case: 499
+Case #1: 0
+Case #2: 1
+Case #3: 0
+Case #4: 1
+Case #5: 577
+Case #6: 577
+Case #7: 1
+Case #8: 384
+Case #9: 1
+Case #10: 375
+Case #11: 0
+Case #12: 1
+Case #13: 0
+Case #14: 1
+Case #15: 264
+Case #16: 457
+Case #17: 1
+Case #18: 378
+Case #19: 1
+Case #20: 478
+Case #21: 0
+Case #22: 1
+Case #23: 0
+Case #24: 1
+Case #25: 537
+Case #26: 419
+Case #27: 1
+Case #28: 499
+Case #29: 1
+Case #30: 483
+Case #31: 0
+Case #32: 1
+Case #33: 0
+Case #34: 1
+Case #35: 388
+Case #36: 720
+Case #37: 1
+Case #38: 280
+Case #39: 1
+Case #40: 546
+Case #41: 0
+Case #42: 1
+Case #43: 0
+Case #44: 1
+Case #45: 561
+Case #46: 666
+Case #47: 1
+Case #48: 501
+Case #49: 1
+Case #50: 533
+Case #51: 0
+Case #52: 1
+Case #53: 0
+Case #54: 1
+Case #55: 522
+Case #56: 517
+Case #57: 1
+Case #58: 690
+Case #59: 1
+Case #60: 494
+Case #61: 0
+Case #62: 1
+Case #63: 0
+Case #64: 1
+Case #65: 548
+Case #66: 533
+Case #67: 1
+Case #68: 555
+Case #69: 1
+Case #70: 643
+Case #71: 0
+Case #72: 1
+Case #73: 0
+Case #74: 1
+Case #75: 763
+Case #76: 637
+Case #77: 1
+Case #78: 367
+Case #79: 1
+Case #80: 801
+Case #81: 0
+Case #82: 1
+Case #83: 0
+Case #84: 1
+Case #85: 534
+Case #86: 769
+Case #87: 1
+Case #88: 627
+Case #89: 1
+Case #90: 594
+Case #91: 0
+Case #92: 1
+Case #93: 0
+Case #94: 1
+Case #95: 900
+Case #96: 346
+Case #97: 1
+Case #98: 398
+Case #99: 1
+Case #100: 423
+Case #101: 0
+Case #102: 1
+Case #103: 0
+Case #104: 1
+Case #105: 414
+Case #106: 441
+Case #107: 1
+Case #108: 759
+Case #109: 1
+Case #110: 473
+Case #111: 0
+Case #112: 1
+Case #113: 0
+Case #114: 1
+Case #115: 502
+Case #116: 678
+Case #117: 1
+Case #118: 572
+Case #119: 1
+Case #120: 441
+Case #121: 0
+Case #122: 1
+Case #123: 0
+Case #124: 1
+Case #125: 389
+Case #126: 430
+Case #127: 1
+Case #128: 665
+Case #129: 1
+Case #130: 397
+Case #131: 0
+Case #132: 1
+Case #133: 0
+Case #134: 1
+Case #135: 646
+Case #136: 324
+Case #137: 1
+Case #138: 636
+Case #139: 1
+Case #140: 623
+Case #141: 0
+Case #142: 1
+Case #143: 0
+Case #144: 1
+Case #145: 529
+Case #146: 526
+Case #147: 1
+Case #148: 531
+Case #149: 1
+Case #150: 496
+Case #151: 0
+Case #152: 1
+Case #153: 0
+Case #154: 1
+Case #155: 336
+Case #156: 421
+Case #157: 1
+Case #158: 456
+Case #159: 1
+Case #160: 336
+Case #161: 0
+Case #162: 1
+Case #163: 0
+Case #164: 1
+Case #165: 473
+Case #166: 563
+Case #167: 1
+Case #168: 323
+Case #169: 1
+Case #170: 327
+Case #171: 0
+Case #172: 1
+Case #173: 0
+Case #174: 1
+Case #175: 650
+Case #176: 528
+Case #177: 1
+Case #178: 427
+Case #179: 1
+Case #180: 459
+Case #181: 0
+Case #182: 1
+Case #183: 0
+Case #184: 1
+Case #185: 525
+Case #186: 579
+Case #187: 1
+Case #188: 533
+Case #189: 1
+Case #190: 833
+Case #191: 0
+Case #192: 1
+Case #193: 0
+Case #194: 1
+Case #195: 472
+Case #196: 400
+Case #197: 1
+Case #198: 604
+Case #199: 1
+Case #200: 529
+Case #201: 0
+Case #202: 1
+Case #203: 0
+Case #204: 1
+Case #205: 708
+Case #206: 337
+Case #207: 1
+Case #208: 519
+Case #209: 1
+Case #210: 596
+Case #211: 0
+Case #212: 1
+Case #213: 0
+Case #214: 1
+Case #215: 416
+Case #216: 599
+Case #217: 1
+Case #218: 663
+Case #219: 1
+Case #220: 420
+Case #221: 0
+Case #222: 1
+Case #223: 0
+Case #224: 1
+Case #225: 467
+Case #226: 649
+Case #227: 1
+Case #228: 571
+Case #229: 1
+Case #230: 417
+Case #231: 0
+Case #232: 1
+Case #233: 0
+Case #234: 1
+Case #235: 751
+Case #236: 381
+Case #237: 1
+Case #238: 460
+Case #239: 1
+Case #240: 278
+Case #241: 0
+Case #242: 1
+Case #243: 0
+Case #244: 1
+Case #245: 409
+Case #246: 636
+Case #247: 1
+Case #248: 320
+Case #249: 1
+Case #250: 644
+Case #251: 0
+Case #252: 1
+Case #253: 0
+Case #254: 1
+Case #255: 603
+Case #256: 289
+Case #257: 1
+Case #258: 461
+Case #259: 1
+Case #260: 322
+Case #261: 0
+Case #262: 1
+Case #263: 0
+Case #264: 1
+Case #265: 747
+Case #266: 417
+Case #267: 1
+Case #268: 676
+Case #269: 1
+Case #270: 393
+Case #271: 0
+Case #272: 1
+Case #273: 0
+Case #274: 1
+Case #275: 414
+Case #276: 450
+Case #277: 1
+Case #278: 432
+Case #279: 1
+Case #280: 481
+Case #281: 0
+Case #282: 1
+Case #283: 0
+Case #284: 1
+Case #285: 676
+Case #286: 581
+Case #287: 1
+Case #288: 464
+Case #289: 1
+Case #290: 530
+Case #291: 0
+Case #292: 1
+Case #293: 0
+Case #294: 1
+Case #295: 425
+Case #296: 483
+Case #297: 1
+Case #298: 433
+Case #299: 1
+Case #300: 416
+Case #301: 0
+Case #302: 1
+Case #303: 0
+Case #304: 1
+Case #305: 514
+Case #306: 434
+Case #307: 1
+Case #308: 480
+Case #309: 1
+Case #310: 396
+Case #311: 0
+Case #312: 1
+Case #313: 0
+Case #314: 1
+Case #315: 462
+Case #316: 623
+Case #317: 1
+Case #318: 426
+Case #319: 1
+Case #320: 356
+Case #321: 0
+Case #322: 1
+Case #323: 0
+Case #324: 1
+Case #325: 543
+Case #326: 507
+Case #327: 1
+Case #328: 433
+Case #329: 1
+Case #330: 602
+Case #331: 0
+Case #332: 1
+Case #333: 0
+Case #334: 1
+Case #335: 459
+Case #336: 248
+Case #337: 1
+Case #338: 650
+Case #339: 1
+Case #340: 357
+Case #341: 0
+Case #342: 1
+Case #343: 0
+Case #344: 1
+Case #345: 489
+Case #346: 520
+Case #347: 1
+Case #348: 481
+Case #349: 1
+Case #350: 313
+Case #351: 0
+Case #352: 1
+Case #353: 0
+Case #354: 1
+Case #355: 359
+Case #356: 440
+Case #357: 1
+Case #358: 475
+Case #359: 1
+Case #360: 642
+Case #361: 0
+Case #362: 1
+Case #363: 0
+Case #364: 1
+Case #365: 434
+Case #366: 470
+Case #367: 1
+Case #368: 322
+Case #369: 1
+Case #370: 498
+Case #371: 0
+Case #372: 1
+Case #373: 0
+Case #374: 1
+Case #375: 385
+Case #376: 744
+Case #377: 1
+Case #378: 465
+Case #379: 1
+Case #380: 382
+Case #381: 0
+Case #382: 1
+Case #383: 0
+Case #384: 1
+Case #385: 784
+Case #386: 654
+Case #387: 1
+Case #388: 671
+Case #389: 1
+Case #390: 481
+Case #391: 0
+Case #392: 1
+Case #393: 0
+Case #394: 1
+Case #395: 357
+Case #396: 422
+Case #397: 1
+Case #398: 526
+Case #399: 1
+Case #400: 418
+Case #401: 0
+Case #402: 1
+Case #403: 0
+Case #404: 1
+Case #405: 371
+Case #406: 526
+Case #407: 1
+Case #408: 606
+Case #409: 1
+Case #410: 1045
+Case #411: 0
+Case #412: 1
+Case #413: 0
+Case #414: 1
+Case #415: 495
+Case #416: 496
+Case #417: 1
+Case #418: 540
+Case #419: 1
+Case #420: 506
+Case #421: 0
+Case #422: 1
+Case #423: 0
+Case #424: 1
+Case #425: 372
+Case #426: 601
+Case #427: 1
+Case #428: 575
+Case #429: 1
+Case #430: 450
+Case #431: 0
+Case #432: 1
+Case #433: 0
+Case #434: 1
+Case #435: 450
+Case #436: 507
+Case #437: 1
+Case #438: 589
+Case #439: 1
+Case #440: 390
+Case #441: 0
+Case #442: 1
+Case #443: 0
+Case #444: 1
+Case #445: 441
+Case #446: 447
+Case #447: 1
+Case #448: 397
+Case #449: 1
+Case #450: 296
+Case #451: 0
+Case #452: 1
+Case #453: 0
+Case #454: 1
+Case #455: 226
+Case #456: 407
+Case #457: 1
+Case #458: 509
+Case #459: 1
+Case #460: 619
+Case #461: 0
+Case #462: 1
+Case #463: 0
+Case #464: 1
+Case #465: 517
+Case #466: 467
+Case #467: 1
+Case #468: 483
+Case #469: 1
+Case #470: 569
+Case #471: 0
+Case #472: 1
+Case #473: 0
+Case #474: 1
+Case #475: 481
+Case #476: 509
+Case #477: 1
+Case #478: 451
+Case #479: 1
+Case #480: 348
+Case #481: 0
+Case #482: 1
+Case #483: 0
+Case #484: 1
+Case #485: 713
+Case #486: 424
+Case #487: 1
+Case #488: 391
+Case #489: 1
+Case #490: 640
+Case #491: 0
+Case #492: 1
+Case #493: 0
+Case #494: 1
+Case #495: 650
+Case #496: 479
+Case #497: 1
+Case #498: 470
+Case #499: 1
+Case #500: 826
