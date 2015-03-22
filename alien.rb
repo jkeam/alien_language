@@ -9,7 +9,7 @@ class Alien
   def initialize(forest)
     log = Logger.new 'alien_logger'
     log.outputters = Outputter.stdout
-    log.level = Log4r::INFO
+    log.level = Log4r::ERROR
     @log = log
 
     @forest = forest
@@ -17,16 +17,15 @@ class Alien
 
   def count_matches(test_cases)
     answer = []
-    log.info "total test cases: #{test_cases.size}"
+    log.info "Total test cases: #{test_cases.size}"
     test_cases.each_with_index do |inputs, i|
-      log.info "processing test case: #{i}"
 
       t1 = Time.now
       answer << dfs('', 0, inputs)
 
       t2 = Time.now
       delta = t2 - t1
-      log.debug "Timing count_matches: #{delta}"
+      log.info "Processing test case: #{i} in #{delta*1000}ms"
     end
     answer
   end
@@ -68,6 +67,5 @@ class Alien
 end
 
 input = Parser.parse 'input/A-large-practice.txt'
-# input = Parser.parse 
 alien = Alien.new input[:forest]
 alien.count_matches(input[:test_cases]).each_with_index { |a, i| puts "Case ##{i+1}: #{a}" }

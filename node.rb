@@ -8,13 +8,14 @@ class Node
   end
 
   def to_s
-    s = "{value: #{@value}, children: \n" 
+    s = "{\n"
+    s += "value: #{@value}, children: \n" 
     s += children.inspect
-    s += "}"
+    s += "\n}"
     s
   end
 
-  # find node if it exists
+  # find node if it exists and add value to it
   def add_value(value)
     node = get_child value
 
