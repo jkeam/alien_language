@@ -1,4 +1,4 @@
-require './forest'
+require './trie'
 
 class Parser
   def self.parse(filename='input/input.txt')
@@ -7,40 +7,20 @@ class Parser
     test_case_length = 0
 
     test_cases = []
-    forest = Forest.new
+    trie = Trie.new
     File.new(filename).each_line.with_index do |line, i|
       if i == 0
         word_length, dictionary_length, test_case_length = line.split(' ')
       elsif i >= 1 && i <= dictionary_length.to_i
-        build_forest(line.chomp, forest)
+        trie.add line.chomp
       else
         test_cases << build_test_case(line.chomp)
       end
     end
     {
-      forest: forest,
+      trie: trie,
       test_cases: test_cases 
     }
-  end
-
-  def self.build_forest(d, forest)
-    cur = nil
-    d.split('').each_with_index do |char, i|
-      if i == 0 
-        tree = forest.get_tree char
-
-        # lazy init tree 
-        if tree.nil?
-          cur = Node.new char, nil
-          forest.add_tree(char, Tree.new(cur))
-        else
-          cur = tree.root
-        end
-      else
-        # logic to figure out where to insert
-        cur = cur.add_value char
-      end
-    end
   end
 
   def self.build_test_case(tc)

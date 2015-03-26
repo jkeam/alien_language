@@ -1,18 +1,17 @@
 require './parser'
-require './tree'
-require './forest'
+require './trie'
 require 'log4r'
 
 class Alien
   include Log4r
-  attr_accessor :forest, :log
-  def initialize(forest)
+  attr_accessor :trie, :log
+  def initialize(trie)
     log = Logger.new 'alien_logger'
     log.outputters = Outputter.stdout
     log.level = Log4r::ERROR
     @log = log
 
-    @forest = forest
+    @trie = trie
   end
 
   def count_matches(test_cases)
@@ -44,7 +43,7 @@ class Alien
         while (!cur.empty?)
           value = cur.pop   
           popped_off << value
-          node = (i == 0) ? @forest.get_tree_root(value) : current_node.get_child(value)
+          node = (i == 0) ? @trie.get_root(value) : current_node.get_child(value)
           matches += dfs(prefix + value, i+1, inputs, node) if node
         end
 
@@ -53,7 +52,7 @@ class Alien
         return matches
       else
         # move forward for sure elements
-        node = (i == 0) ? @forest.get_tree_root(cur) : node.get_child(cur)
+        node = (i == 0) ? @trie.get_root(cur) : node.get_child(cur)
         prefix += cur
         i += 1
 
@@ -66,7 +65,8 @@ class Alien
   end
 end
 
-input = Parser.parse 'input/A-large-practice.txt'
-# input = Parser.parse 'input/A-small-practice.txt'
-alien = Alien.new input[:forest]
+# input = Parser.parse 'input/A-large-practice.txt'
+input = Parser.parse 'input/A-small-practice.txt'
+# input = Parser.parse 
+alien = Alien.new input[:trie]
 alien.count_matches(input[:test_cases]).each_with_index { |a, i| puts "Case ##{i+1}: #{a}" }

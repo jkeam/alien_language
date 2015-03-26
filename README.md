@@ -7,7 +7,7 @@ I think the ideal solution in terms of implementation time and most likely runti
 ## My Approach
 My approach however involved:
 
-1.  Populating tries that contained every word in the dictionary.  I called this data structure a Forest (pun on multiple trees.  MarkLogic has similar terminology.)  The forest is a hash containing the first letter for every valid word to the trie that contains that word(s).
+1.  Populating tries that contained every word in the dictionary.
 
 2.  Turning the test cases into a usuable format.  I turned each test case into a list holding either the given letter, or for every variable pattern, I put each allowed letter for a single position into a queue (actually Ruby Array, b/c Ruby arrays implement tons of data structure APIs). 
 
@@ -22,7 +22,7 @@ Implementation wise, every time I say I use the letter as a key in some hash, I 
 ## Interesting Hiccups
 This took me a lot longer than I wanted to solve it.  A few interesting things I ran into:
 
-I wanted to initially use this [trie](https://github.com/tyler/trie) but it took me way too long to try and figure out how to make their API work they way I wanted, so I finally just ended up implementing my own trie (tree.rb and node.rb) that exposed the operations I wanted.
+I wanted to initially use this [trie](https://github.com/tyler/trie) but it took me way too long to try and figure out how to make their API work they way I wanted, so I finally just ended up implementing my own trie that exposed the operations I wanted.
 
 My tries themselves are very simple.  They consists of nodes, where each node contains the letter as well as a hash of subsequent letters to subsequent node.  
 
